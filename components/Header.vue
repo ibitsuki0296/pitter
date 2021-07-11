@@ -21,4 +21,7 @@ export default {
     font-weight: 300;
     font-size: 2rem;
   }
+  nav ul {
+    list-style: none;
+  }
 </style>

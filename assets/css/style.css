@@ -1,0 +1,32 @@
+* {
+  color: #555;
+  line-height: 1.65;
+}
+
+a {
+  color: #1D51A3;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1072px;
+}
+
+.page_h2 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.column {
+  margin: 1rem;
+}
+
+.column_2 {
+  display: flex;
+  justify-content: center;
+}
