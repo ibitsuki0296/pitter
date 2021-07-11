@@ -1,7 +1,13 @@
 <template>
-  <div class="container">
+  <header>
     <div class="site-title">Pitter-Patter</div>
-  </div>
+    <nav>
+      <ul>
+        <li><NuxtLink to="/">TOP</NuxtLink></li>
+        <li></li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
 <script>

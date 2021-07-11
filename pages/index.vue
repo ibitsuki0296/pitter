@@ -1,7 +1,18 @@
 <template>
-  <Header />
+  <div class="wrapper">
+    <Header />
+    <div class="page">
+      <h2 id="pick-up" class="page_h2">Pick Up</h2>
+      <div class="column_2">
+        <div class="column">
+        </div>
+        <div class="column">
+          オススメ動画の説明など。
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
-
 <script>
 export default {
   head(){
