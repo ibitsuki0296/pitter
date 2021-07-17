@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" id="top">
     <Header />
     <div class="page">
       <h2 id="pick-up" class="page_h2">Pick Up</h2>
@@ -12,6 +12,41 @@
           恥をしのんでわたしの動画はりましたが、このまま公開しないでね。よろしくね。
         </div>
       </div>
+      <h3 class="page_h3">ひとこと</h3>
+      <p>
+        ぱらっとしたかんじになりました。
+      </p>
+      <button class="anchor_button">
+        <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
+      </button>
+    </div>
+    <div id="about" class="page">
+      <h2 class="page_h2">About</h2>
+      <p></p>
+      <button class="anchor_button">
+        <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
+      </button>
+    </div>
+    <div id="works" class="page">
+      <h2 class="page_h2">Works</h2>
+      <p></p>
+      <button class="anchor_button">
+        <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
+      </button>
+    </div>
+    <div id="link" class="page">
+      <h2 class="page_h2">Link</h2>
+      <p></p>
+      <button class="anchor_button">
+        <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
+      </button>
+    </div>
+    <div id="mail" class="page">
+      <h2 class="page_h2">Mail</h2>
+      <p></p>
+      <button class="anchor_button">
+        <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
+      </button>
     </div>
   </div>
 </template>
@@ -29,7 +64,3 @@ export default {
   },
 }
 </script>
-
-<style lang="css" scoped>
-
-</style>

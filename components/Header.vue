@@ -3,8 +3,11 @@
     <div class="site-title">Pitter-Patter</div>
     <nav>
       <ul>
-        <li><NuxtLink to="/">TOP</NuxtLink></li>
-        <li></li>
+        <li><a href="/">Top</a></li>
+        <li><NuxtLink to="/#about" v-scroll-to="'#about'">About</NuxtLink></li>
+        <li><NuxtLink to="/#works" v-scroll-to="'#works'">Works</NuxtLink></li>
+        <li><NuxtLink to="/#link" v-scroll-to="'#link'">Link</NuxtLink></li>
+        <li><NuxtLink to="/#mail" v-scroll-to="'#mail'">Mail</NuxtLink></li>
       </ul>
     </nav>
   </header>
@@ -16,6 +19,10 @@ export default {
 </script>
 
 <style scoped>
+  header {
+    height: 130px;
+    position: fixed;
+  }
   .site-title {
     font-family: 'Source Code Pro', monospace;
     font-weight: 300;
@@ -23,5 +30,10 @@ export default {
   }
   nav ul {
     list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  nav ul li {
+    margin: 0 0.5rem;
   }
 </style>

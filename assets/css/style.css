@@ -16,6 +16,24 @@ a:hover {
   width: 1072px;
 }
 
+.page {
+  min-height: calc(100vh - 130px);
+  padding-top: 130px;
+}
+
+.anchor_top {
+  text-decoration: none;
+}
+
+.anchor_button {
+  background: transparent;
+  border: 0;
+  display: block;
+  width: 5rem;
+  margin-left: auto;
+  margin-right: 0;
+}
+
 .page_h2 {
   font-family: 'Source Code Pro', monospace;
   font-weight: 300;

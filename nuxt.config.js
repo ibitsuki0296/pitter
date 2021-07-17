@@ -25,6 +25,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/date-fns'
   ],
+  plugins: ['~/plugins/scroll.js'],
   env: {
     baseURL: process.env.baseURL
   },
