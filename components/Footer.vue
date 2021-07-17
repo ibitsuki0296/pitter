@@ -1,10 +1,13 @@
 <template>
   <footer>
-    <ul class="list_sns">
-      <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-      <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-    </ul>
+    <div class="fotter_wrapper">
+      <img class="footer_img" src="~/assets/img/hydrangea.jpg" alt="" />
+      <ul class="list_sns">
+        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
     <small>copyright &copy; 2021 Pitter-patter</small>
   </footer>
 </template>
@@ -23,6 +26,16 @@ export default {
     bottom: 2rem;
     width: 1072px;
     border-top: 1px dashed rgba(29, 81, 163, 0.6);
+  }
+  .fotter_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .footer_img {
+    width: auto;
+    height: 120px;
+    margin-left: 0;
+    margin-right: auto;
   }
   .list_sns {
     list-style: none;

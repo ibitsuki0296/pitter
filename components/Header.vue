@@ -1,15 +1,18 @@
 <template>
   <header>
-    <div class="site-title">Pitter-Patter</div>
-    <nav>
-      <ul>
-        <li><a href="/">Top</a></li>
-        <li><NuxtLink to="/#about" v-scroll-to="'#about'">About</NuxtLink></li>
-        <li><NuxtLink to="/#works" v-scroll-to="'#works'">Works</NuxtLink></li>
-        <li><NuxtLink to="/#link" v-scroll-to="'#link'">Link</NuxtLink></li>
-        <li><NuxtLink to="/#mail" v-scroll-to="'#mail'">Mail</NuxtLink></li>
-      </ul>
-    </nav>
+    <div class="header_wrapper">
+      <div class="site-title">Pitter-Patter</div>
+      <nav>
+        <ul>
+          <li><a href="/">Top</a></li>
+          <li><NuxtLink to="/#about" v-scroll-to="'#about'">About</NuxtLink></li>
+          <li><NuxtLink to="/#works" v-scroll-to="'#works'">Works</NuxtLink></li>
+          <li><NuxtLink to="/#link" v-scroll-to="'#link'">Link</NuxtLink></li>
+          <li><NuxtLink to="/#mail" v-scroll-to="'#mail'">Mail</NuxtLink></li>
+        </ul>
+      </nav>
+    </div>
+    <img class="header_img" src="~/assets/img/umbrella.jpg" alt="" />
   </header>
 </template>
 
@@ -20,6 +23,7 @@ export default {
 
 <style scoped>
   header {
+    display: flex;
     width: 1072px;
     background: rgba(255,255,255,0.6);
     height: 130px;
@@ -38,5 +42,11 @@ export default {
   }
   nav ul li {
     margin: 0 0.5rem;
+  }
+  .header_img {
+    width: auto;
+    height: 120px;
+    margin-right: 0;
+    margin-left: auto;
   }
 </style>
