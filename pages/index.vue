@@ -48,6 +48,7 @@
         <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
       </button>
     </div>
+    <Footer />
   </div>
 </template>
 <script>
