@@ -14,33 +14,52 @@
       </div>
       <h3 class="page_h3">ひとこと</h3>
       <p>
-        ぱらっとしたかんじになりました。
+        コメントか何か入れても良いかもしれない。<br />
+        改行はこんなかんじで、
       </p>
-      <button class="anchor_button">
-        <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
-      </button>
+      <p>
+        段落はこんなかんじになります。
+      </p>
+      <p>
+        どうぞよしなに。
+      </p>
     </div>
+    <button class="anchor_button">
+      <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
+    </button>
+    <hr />
     <div id="about" class="page">
       <h2 class="page_h2">About</h2>
-      <p></p>
-      <button class="anchor_button">
-        <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
-      </button>
+      <h3 class="page_h3">このサイトについて</h3>
+      <p>
+        サイトについての説明など。<br />
+        それぞれ「About」や「Works」の見出しはh2、「このサイトについて」などはh3です。
+      </p>
+      <p>
+        TOPに戻るリンクの下にある水平線は区切りとしてhrを入れました。<br />
+        飾り線なので取っ払っても特に支障はないです。
+      </p>
     </div>
+    <button class="anchor_button">
+      <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
+    </button>
+    <hr />
     <div id="works" class="page">
       <h2 class="page_h2">Works</h2>
       <p></p>
-      <button class="anchor_button">
-        <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
-      </button>
     </div>
+    <button class="anchor_button">
+      <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
+    </button>
+    <hr />
     <div id="link" class="page">
       <h2 class="page_h2">Link</h2>
       <p></p>
-      <button class="anchor_button">
-        <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
-      </button>
     </div>
+    <button class="anchor_button">
+      <NuxtLink to="/" v-scroll-to="'#top'" class="anchor_top">▲Top</NuxtLink>
+    </button>
+    <hr />
     <div id="mail" class="page">
       <h2 class="page_h2">Mail</h2>
       <p></p>

@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="header_wrapper">
-      <div class="site-title">Pitter-Patter</div>
+      <h1 class="site-title">Pitter-Patter</h1>
       <nav>
         <ul>
           <li><a href="/">Top</a></li>
@@ -42,6 +42,8 @@ export default {
   }
   nav ul li {
     margin: 0 0.5rem;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.1rem;
   }
   .header_img {
     width: auto;

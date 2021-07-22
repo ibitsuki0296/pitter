@@ -11,6 +11,19 @@ a:hover {
   opacity: 0.7;
 }
 
+p {
+  margin: 1.5rem 1rem;
+}
+
+hr {
+  margin: 1rem 0 2rem;
+  padding: 0;
+  border: 0;
+  height: 8px;
+  background-image: repeating-linear-gradient(45deg, #555 0, #555 1px, transparent 0, transparent 50%);
+  background-size: 8px 8px;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 1072px;
@@ -38,10 +51,30 @@ a:hover {
   font-family: 'Source Code Pro', monospace;
   font-weight: 300;
   font-size: 1.5rem;
+  margin: 0 0 2rem;
 }
 
+.page_h3 {
+  font-weight: 400;
+  margin: 0 0 2rem;
+  color: #fff;
+  position: relative;
+  padding: 1rem 2rem calc(1rem + 10px);
+  background: rgba(29, 81, 163, 0.8);
+ }
+
+ .page_h3::before {
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 100%;
+  height: 100%;
+  content: '';
+  border: 4px solid #555;
+ }
+
 .column {
-  margin: 1rem;
+  margin: 1rem 1rem 2rem;
 }
 
 .column_2 {
