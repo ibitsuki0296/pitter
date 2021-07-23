@@ -28,6 +28,7 @@ export default {
     background: rgba(255,255,255,0.6);
     height: 130px;
     position: fixed;
+    z-index: 5;
     border-bottom: 1px dashed rgba(29, 81, 163, 0.6);
   }
   .site-title {

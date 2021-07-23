@@ -24,6 +24,22 @@ hr {
   background-size: 8px 8px;
 }
 
+table {
+  border-spacing: 0;
+  margin: 1rem 0.5rem 2rem;
+}
+
+table th{
+  border-bottom: solid 2px #1D51A3;
+  padding: 0.5rem 2rem 0.2rem;
+}
+
+table td{
+  border-bottom: solid 2px #ddd;
+  text-align: center;
+  padding: 0.5rem 2rem 0.2rem;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 1072px;
@@ -50,7 +66,7 @@ hr {
 .page_h2 {
   font-family: 'Source Code Pro', monospace;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0 0 2rem;
 }
 
@@ -73,11 +89,35 @@ hr {
   border: 4px solid #555;
  }
 
+ .page_h4 {
+   font-weight: 400;
+   font-size: 1.1rem;
+   padding: 0 0 0 0.5rem;
+   border-left: solid 6px #1D51A3;
+   margin: 0 0 1rem;
+ }
+
 .column {
+  width: 50%;
   margin: 1rem 1rem 2rem;
 }
 
 .column_2 {
   display: flex;
   justify-content: center;
+}
+
+.youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.youtube iframe {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
