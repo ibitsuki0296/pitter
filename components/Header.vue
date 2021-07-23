@@ -1,18 +1,15 @@
 <template>
   <header>
-    <div class="header_wrapper">
-      <h1 class="site-title">Pitter-Patter</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Top</a></li>
-          <li><NuxtLink to="/#about" v-scroll-to="'#about'">About</NuxtLink></li>
-          <li><NuxtLink to="/#works" v-scroll-to="'#works'">Works</NuxtLink></li>
-          <li><NuxtLink to="/#link" v-scroll-to="'#link'">Link</NuxtLink></li>
-          <li><NuxtLink to="/#mail" v-scroll-to="'#mail'">Mail</NuxtLink></li>
-        </ul>
-      </nav>
-    </div>
-    <img class="header_img" src="~/assets/img/umbrella.jpg" alt="" />
+    <h1 class="site-title">Pitter-Patter</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Top</a></li>
+        <li><NuxtLink to="/#about" v-scroll-to="'#about'">About</NuxtLink></li>
+        <li><NuxtLink to="/#works" v-scroll-to="'#works'">Works</NuxtLink></li>
+        <li><NuxtLink to="/#link" v-scroll-to="'#link'">Link</NuxtLink></li>
+        <li><NuxtLink to="/#mail" v-scroll-to="'#mail'">Mail</NuxtLink></li>
+      </ul>
+    </nav>
   </header>
 </template>
 
@@ -23,9 +20,9 @@ export default {
 
 <style scoped>
   header {
-    display: flex;
+    background: rgba(255, 255, 255, 0.6) no-repeat url("~/assets/img/umbrella.png") right top / auto 100px;
+    padding: 0 2rem 0 0;
     width: 1072px;
-    background: rgba(255,255,255,0.6);
     height: 130px;
     position: fixed;
     z-index: 5;
@@ -46,10 +43,11 @@ export default {
     font-family: 'Source Code Pro', monospace;
     font-size: 1.1rem;
   }
-  .header_img {
-    width: auto;
-    height: 120px;
-    margin-right: 0;
-    margin-left: auto;
+
+  @media screen and (max-width: 1072px) {
+    header {
+      background: rgba(255, 255, 255, 0.5);
+      width: 100%;
+    }
   }
 </style>

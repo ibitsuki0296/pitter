@@ -121,3 +121,19 @@ table td{
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 1072px) {
+  .wrapper {
+    width: 90%;
+    background-blend-mode: lighten;
+    background: no-repeat url("~/assets/img/umbrella.png") right top / auto 100px;
+  }
+
+  .column {
+    width: 90%;
+  }
+
+  .column_2 {
+    flex-direction: column;
+  }
+}
